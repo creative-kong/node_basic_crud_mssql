@@ -45,7 +45,7 @@ BEGIN
 	ELSE
 		BEGIN
 			BEGIN TRANSACTION
-      -- update statements for store
+      			-- update statements for store
 			UPDATE dbo.customer
 			SET	customer_firstname = @customer_firstname,
 				customer_lastname = @customer_lastname,
