@@ -1,6 +1,6 @@
 # node_basic_crud_mssql
 store 
-```
+```sql
 USE [basic_crud]
 GO
 SET ANSI_NULLS ON
